@@ -9,7 +9,7 @@ function insert_Row() {
 	let cell2=document.createElement("td");
 	cell1.textContent="New Cell1";
 	cell2.textContent="New Cell2";
-	let table=document.querySelector("#sampleTable")
+	let table=document.querySelector("#sampleTable tbody")
 	cell.append(cell1,cell2)
 	table.prepend(cell)
 	
